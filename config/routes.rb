@@ -4,4 +4,6 @@ Rails.application.routes.draw do
  end
  root "post#index"
 
+ get '/about', to: 'pages#about'
+
 end
